@@ -1,0 +1,28 @@
+.layer {
+    width: 200px;
+    height: 200px;
+}
+
+.red-layer {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    z-index: 1;
+    background-color: salmon;
+}
+
+.blue-layer {
+    position: absolute;
+    top: 190px;
+    left: 530px;
+    z-index: 2;
+    background-color: rgb(101, 127, 207);
+}
+
+.green-layer {
+    position: absolute;
+    top: 320px;
+    left: 660px;
+    z-index: 1;
+    background-color: rgb(93, 248, 163);
+}
